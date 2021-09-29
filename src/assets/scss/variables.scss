@@ -1,3 +1,11 @@
 $widthContainer: 70%;
 
 $commonBlue: #0282f9;
+
+@mixin list {
+    list-style: none;
+}
+
+@mixin dFlex {
+    display: flex;
+}

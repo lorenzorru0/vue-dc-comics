@@ -75,10 +75,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import url(../assets/scss/variables.scss);
+@import '../assets/scss/variables.scss';
 
 header {
-    display: flex;
+    @include dFlex;
     align-items: center;
     justify-content: space-between;
 
@@ -87,8 +87,8 @@ header {
     }
 
     ul {
-        display: flex;
-        list-style: none;
+        @include dFlex;
+        @include list;
 
         li {
             padding: 0 .9375rem;

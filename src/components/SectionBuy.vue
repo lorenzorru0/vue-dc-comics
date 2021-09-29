@@ -3,7 +3,7 @@
         <div class="container">
             <ul>
                 <li v-for="(element, index) in elements" :key="index" >
-                    <img :src="'../../public/img/' + element.src + '.png'" :alt="element.name">
+                    <img :src="'../img/' + element.src + '.png'" :alt="element.name">
                     <span>{{element.name}}</span>
                 </li>
             </ul> 

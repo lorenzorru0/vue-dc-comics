@@ -37,11 +37,11 @@
                     <div>
                         <ul>
                             <li> <h3>SITES</h3> </li>
-                            <li> <a href="">DC</a> </li>
-                            <li> <a href="">MAD Magazine</a> </li>
-                            <li> <a href="">DC Kids</a> </li>
-                            <li> <a href="">DC Universe</a> </li>
-                            <li> <a href="">DC Power Visa</a> </li>
+                            <li> <a href="#">DC</a> </li>
+                            <li> <a href="#">MAD Magazine</a> </li>
+                            <li> <a href="#">DC Kids</a> </li>
+                            <li> <a href="#">DC Universe</a> </li>
+                            <li> <a href="#">DC Power Visa</a> </li>
                         </ul>
                     </div>
                 </nav>

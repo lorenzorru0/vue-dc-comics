@@ -1,0 +1,21 @@
+
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+
+@import url(../scss/variables.scss);
+
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.container {
+    width: $widthContainer;
+    margin: auto; 
+}

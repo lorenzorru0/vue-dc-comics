@@ -9,3 +9,7 @@ $commonBlue: #0282f9;
 @mixin dFlex {
     display: flex;
 }
+
+@mixin link {
+    text-decoration: none;
+}

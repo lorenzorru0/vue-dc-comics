@@ -13,9 +13,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '../assets/scss/variables.scss';
 
 .series {
-    width: calc(100% / 6);
+    width: $widthSeries;
     padding: 1.25rem .625rem;
 
     img {
@@ -26,7 +27,7 @@ export default {
     }
 
     p {
-        color: #fff;
+        color: $white;
         text-transform: uppercase;
         margin-top: .625rem;
     }

@@ -97,7 +97,7 @@ header {
         a {
             display: inline-block;
             text-decoration: none;
-            color: #000;
+            color: $black;
             padding: 3.125rem 0;
 
             &.active {

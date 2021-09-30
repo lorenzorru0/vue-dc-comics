@@ -68,7 +68,7 @@ section {
         li {
             @include dFlex;
             align-items: center;
-            color: #fff;
+            color: $white;
 
             img {
                 height: 4rem;

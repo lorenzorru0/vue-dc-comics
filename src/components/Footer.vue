@@ -195,7 +195,7 @@ footer {
                 @include list;
 
                 h3 {
-                    color: #fff;
+                    color: $white;
                     padding: 20px 0;
                 }
 
@@ -225,7 +225,7 @@ footer {
                 padding: .625rem;
                 border: 2px solid $commonBlue;
                 background-color: inherit;
-                color: #fff;
+                color: $white;
                 cursor: pointer;
             }
 

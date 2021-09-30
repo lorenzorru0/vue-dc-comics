@@ -6,42 +6,21 @@
                     <div>
                         <ul>
                             <li> <h3>DC COMICS</h3> </li>
-                            <li> <a href="#">Characters</a> </li>
-                            <li> <a href="#">Comics</a> </li>
-                            <li> <a href="#">Movies</a> </li>
-                            <li> <a href="#">TV</a> </li>
-                            <li> <a href="#">Games</a> </li>
-                            <li> <a href="#">Videos</a> </li>
-                            <li> <a href="#">News</a> </li>
+                            <li v-for="(link, index) in links.dcComics" :key="index"> <a :href="link.href">{{link.name}}</a> </li>
                             <li> <h3>SHOP</h3> </li>
-                            <li> <a href="#">Shop DC</a> </li>
-                            <li> <a href="#">Shop DC Collectibles</a> </li>
+                            <li v-for="(link, index) in links.shop" :key="index"> <a :href="link.href">{{link.name}}</a> </li>
                         </ul>
                     </div>
                     <div>
                         <ul>
                             <li> <h3>DC</h3> </li>
-                            <li> <a href="#">Term Of Use</a> </li>
-                            <li> <a href="#">Privacy policy (New)</a> </li>
-                            <li> <a href="#">Ad Choices</a> </li>
-                            <li> <a href="#">Advertising</a> </li>
-                            <li> <a href="#">Jobs</a> </li>
-                            <li> <a href="#">Subscriptions</a> </li>
-                            <li> <a href="#">Talent Workshops</a> </li>
-                            <li> <a href="#">CPSC Certificates</a> </li>
-                            <li> <a href="#">Ratings</a> </li>
-                            <li> <a href="#">Shop Help</a> </li>
-                            <li> <a href="#">Contact Us</a> </li>
+                            <li v-for="(link, index) in links.dc" :key="index"> <a :href="link.href">{{link.name}}</a> </li>
                         </ul>
                     </div>
                     <div>
                         <ul>
                             <li> <h3>SITES</h3> </li>
-                            <li> <a href="#">DC</a> </li>
-                            <li> <a href="#">MAD Magazine</a> </li>
-                            <li> <a href="#">DC Kids</a> </li>
-                            <li> <a href="#">DC Universe</a> </li>
-                            <li> <a href="#">DC Power Visa</a> </li>
+                            <li v-for="(link, index) in links.sites" :key="index"> <a :href="link.href">{{link.name}}</a> </li>
                         </ul>
                     </div>
                 </nav>
@@ -68,7 +47,121 @@
 
 <script>
 export default {
-    name: 'Footer'
+    name: 'Footer',
+    data() {
+        return {
+            links: {
+                dcComics: [
+                    {
+                        name: 'Characters',
+                        href: '#' 
+                    },
+                    {
+                        name: 'Comics',
+                        href: '#' 
+                    },
+                    {
+                        name: 'Movies',
+                        href: '#' 
+                    },
+                    {
+                        name: 'TV',
+                        href: '#' 
+                    },
+                    {
+                        name: 'Games',
+                        href: '#' 
+                    },
+                    {
+                        name: 'Videos',
+                        href: '#' 
+                    },
+                    {
+                        name: 'News',
+                        href: '#' 
+                    }
+                ],
+                shop: [
+                    {
+                        name: 'Shop DC',
+                        href: '#' 
+                    },
+                    {
+                        name: 'Shop DC Collectibles',
+                        href: '#' 
+                    }
+                ],
+                dc: [
+                    {
+                        name: 'Term Of Use',
+                        href: '#' 
+                    },
+                    {
+                        name: 'Privacy policy (New)',
+                        href: '#' 
+                    },
+                    {
+                        name: 'Ad Choices',
+                        href: '#' 
+                    },
+                    {
+                        name: 'Advertising',
+                        href: '#' 
+                    },
+                    {
+                        name: 'Jobs',
+                        href: '#' 
+                    },
+                    {
+                        name: 'Subscriptions',
+                        href: '#' 
+                    },
+                    {
+                        name: 'Talent Workshops',
+                        href: '#' 
+                    },
+                    {
+                        name: 'CPSC Certificates',
+                        href: '#' 
+                    },
+                    {
+                        name: 'Ratings',
+                        href: '#' 
+                    },
+                    {
+                        name: 'Shop Help',
+                        href: '#' 
+                    },
+                    {
+                        name: 'Contact Us',
+                        href: '#' 
+                    },
+                ],
+                sites: [
+                    {
+                        name: 'DC',
+                        href: '#' 
+                    },
+                    {
+                        name: 'MAD Magazine',
+                        href: '#' 
+                    },
+                    {
+                        name: 'DC Kids',
+                        href: '#' 
+                    },
+                    {
+                        name: 'DC Universe',
+                        href: '#' 
+                    },
+                    {
+                        name: 'DC Power Visa',
+                        href: '#' 
+                    },
+                ]
+            }
+        }
+    }
 }
 </script>
 

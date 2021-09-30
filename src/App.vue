@@ -2,7 +2,8 @@
   <div id="app">
     <Header/>
     <main>
-      <SectionMistery/>
+      <SectionHero/>
+      <SectionSeries/>
       <SectionBuy/>
     </main>
     <Footer/>
@@ -11,10 +12,12 @@
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
-import Header from './components/Header.vue'
-import Footer from './components/Footer.vue'
-import SectionMistery from './components/SectionMistery.vue'
-import SectionBuy from './components/SectionBuy.vue'
+import Header from './components/Header.vue';
+import SectionHero from './components/SectionHero.vue';
+import SectionSeries from './components/SectionSeries.vue';
+import SectionBuy from './components/SectionBuy.vue';
+import Footer from './components/Footer.vue';
+
 
 
 export default {
@@ -22,7 +25,8 @@ export default {
   components: {
     // HelloWorld
     Header,
-    SectionMistery,
+    SectionHero,
+    SectionSeries,
     SectionBuy,
     Footer
   }

@@ -2,7 +2,7 @@
   <div id="app">
     <Header/>
     <main>
-      <SectionHero/>
+      <SectionHero :src="require('./assets/img/jumbotron.jpg')" />
       <SectionSeries/>
       <SectionBuy/>
     </main>

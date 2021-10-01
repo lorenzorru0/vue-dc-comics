@@ -1,12 +1,12 @@
 <template>
-    <section>
-
+    <section :style="`background-image: url(${src});`">
     </section>
 </template>
 
 <script>
 export default {
-    name: 'SectionHero'
+    name: 'SectionHero',
+    props: ['src']
 }
 </script>
 
@@ -15,7 +15,6 @@ export default {
 
 section {
     height: 20rem;
-    background-image: url('../assets/img/jumbotron.jpg');
     background-size: cover;
 }
 </style>

@@ -17,7 +17,7 @@
 </template>
 
 <script>
-import json from './dc-comics.json';
+import json from '../data/dc-comics.json';
 import Series from './Series.vue';
 
 export default {

@@ -8,7 +8,7 @@
                             <li> <h3>DC COMICS</h3> </li>
                             <li v-for="(link, index) in links.dcComics" :key="index"> <a :href="link.href">{{link.name}}</a> </li>
                             <li> <h3>SHOP</h3> </li>
-                            <li v-for="(link, index) in links.shop" :key="index"> <a :href="link.href">{{link.name}}</a> </li>
+                            <li v-for="(link, index) in links.shop" :key="'stringaShop' + index"> <a :href="link.href">{{link.name}}</a> </li>
                         </ul>
                     </div>
                     <div>
